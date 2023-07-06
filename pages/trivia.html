@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, maximum-scale=1, user-scalable=no"/>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/trivia.css">
+    <link rel="stylesheet" href="../plugins/fontawesome/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display&family=Montserrat:wght@200;300;400;500;600&family=Poppins:wght@200;300;400&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
+    <title>Paleoargentum</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <img src="../assets/logo.png" alt="">
+            <ul>
+               <li><a href="../index.html"><span class="material-icons-outlined">home</span></a></li>
+            </ul>
+        </div>
+        <div class="menu-preguntas">
+            <div class='menu' id='p1'>1</div>
+            <div class='menu' id='p2'>2</div>
+            <div class='menu' id='p3'>3</div>
+            <div class='menu' id='p4'>4</div>
+            <div class='menu' id='p5'>5</div>
+            <div class='menu' id='p6'>6</div>
+            <div class='menu' id='p7'>7</div>
+            <div class='menu' id='p8'>8</div>
+        </div>
+        <div class="container">
+            <div class="box-title">
+                <h1>¿Cuanto sabés sobre Ciberseguridad Social?</h1>
+            </div>
+            <div class="cuestionario">
+                <div class="box-pregunta">
+                    <div class="box-pregunta-title">
+                        <h3>1/8</h3>
+                        <h2>¿Qué es el Grooming?</h2>
+                    </div>
+                    <div class="box-pregunta-respuesta">
+                        <button type='button'  id="r11" class="respuesta respuesta_hover p1">Una extorsión hacia los adultos</button>
+                        <button type='button' id='r12' class="respuesta respuesta_hover  p1">Práctica de acoso y abuso sexual por parte de un adulto en contra de niños y jóvenes</button>
+                        <button type='button' id='r13' class="respuesta  respuesta_hover p1">Violación de privacidad</button>
+                    </div>
+                    <div class="box-info ocultar" id='info1'>
+                        <p>El Grooming es el acoso sexual de una persona adulta hacia una niña, un niño o un adolescente a través de internet.</p>
+                    </div>
+                </div>
+                <div class="box-pregunta">
+                    <div class="box-pregunta-title">
+                        <h3>2/8</h3>
+                        <h2>¿Por cuál es el medio más utilizado para la práctica del Grooming?</h2>
+                    </div>	
+                    <div class="box-pregunta-respuesta">
+                        <button type='button'  id="r21" class="respuesta respuesta_hover  p2">Redes Sociales</button>
+                        <button type='button' id='r22' class="respuesta respuesta_hover  p2">En los Colegios</button>
+                        <button type='button' id='r23' class="respuesta respuesta_hover  p2">En las Calles</button>
+                    </div>
+                    <div class="box-info ocultar" id='info2'>
+                        <p>
+                            Los acosadores suelen crear un perfil falso en redes sociales, aplicaciones, videojuegos multijugador u otro medio social para poder
+                            establecer una relación de confianza con el niño, niña u adolescente.
+                        </p>
+                    </div>
+                </div>
+                <div class="box-pregunta">
+                    <div class="box-pregunta-title">
+                        <h3>3/8</h3>
+                        <h2>¿Qué tipo de información roba el Phishing a través de correos electrónicos?</h2>
+                    </div>
+                    <div class="box-pregunta-respuesta">
+                        <button type='button'  id="r31" class="respuesta respuesta_hover  p3">El nombre de la madre del usuario</button>
+                        <button type='button' id='r32' class="respuesta respuesta_hover  p3">Información personal y bancaria de una usuario.</button>
+                        <button type='button' id='r33' class="respuesta respuesta_hover  p3">Las imágenes del usuario</button>
+                    </div>
+                    <div class="box-info ocultar" id='info3'>
+                        <p>
+                            El phishing es una técnica de ingeniería social que consiste en el envío de correos electrónicos que suplantan 
+                            la identidad de compañías u organismos públicos y solicitan información personal y bancaria al usuario.
+                        </p>
+                    </div>
+                </div>
+                <div class="box-pregunta">
+                    <div class="box-pregunta-title">
+                        <h3>4/8</h3>
+                        <h2>¿El Stalking es una forma de ciberacoso?</h2>
+                    </div>
+                    <div class="box-pregunta-respuesta">
+                        <button type='button'  id="r41" class="respuesta respuesta_hover  p4">Verdadero</button>
+                        <button type='button'  id="r42" class="respuesta respuesta_hover  p4">Falso</button>
+                    </div>
+                    <div class="box-info ocultar" id='info4'>
+                        <p>
+                            ¡Verdadero! El Stalking es un ciberacoso. Principalmente, el acoso se da en redes sociales como Facebook, Instagram o Twitter, 
+                            por correo electrónico o por servicios de mensajería instantánea como WhatsApp.
+                        </p>
+                    </div>
+                </div>
+                <div class="box-pregunta">
+                    <div class="box-pregunta-title">
+                        <h3>5/8</h3>
+                        <h2>¿El Sexting siempre es voluntario?</h2>
+                    </div>
+                    <div class="box-pregunta-respuesta">
+                        <button type='button'  id="r51" class="respuesta respuesta_hover  p5">Verdadero</button>
+                        <button type='button'  id="r52" class="respuesta respuesta_hover  p5">Falso</button>
+                    </div>
+                    <div class="box-info ocultar" id='info5'>
+                        <p>
+                            ¡Falso! El Sexting puede ser involuntario, ya que otra persona puede utilizar el dispositivo
+                             en el que están almacenados los archivos de contenido erótico o sexual y reenviarlos, o que la víctima sea grabada sin su consentimiento.
+                        </p>
+                    </div>
+                </div>
+                <div class="box-pregunta">
+                    <div class="box-pregunta-title">
+                        <h3>6/8</h3>
+                        <h2>¿Para prevenir el Phishing debo verificar el remitente de los correos electrónicos recibidos?</h2>
+                    </div>
+                    <div class="box-pregunta-respuesta">
+                        <button type='button'  id="r61" class="respuesta respuesta_hover  p6">Verdadero</button>
+                        <button type='button'  id="r62" class="respuesta respuesta_hover  p6">Falso</button>
+                    </div>
+                    <div class="box-info ocultar" id='info6'>
+                        <p>
+                            ¡Verdadero! Antes de abrir cualquier correo electrónico es importante chequear que no sea falso. 
+                            Observá la dirección completa del remitente.
+                        </p>
+                    </div>
+                </div>
+                <div class="box-pregunta">
+                    <div class="box-pregunta-title">
+                        <h3>7/8</h3>
+                        <h2>¿Cómo se puede prevenir el Sexting?</h2>
+                    </div>
+                    <div class="box-pregunta-respuesta">
+                        <button type='button'  id="r71" class="respuesta respuesta_hover  p7">Publicando mis fotos en redes sociales</button>
+                        <button type='button'  id="r72" class="respuesta respuesta_hover  p7">Difundiendo fotos de terceros</button>
+                        <button type='button'  id="r73" class="respuesta respuesta_hover  p7">Cuidando mi privacidad</button>
+                    </div>
+                    <div class="box-info ocultar" id='info7'>
+                        <p>
+                            Para prevenir el sexting se debe concientizar y promover el cuidado de la privacidad, no fomentar el sexting ni participar en su difusión.
+                        </p>
+                    </div>
+                </div>
+                <div class="box-pregunta">
+                    <div class="box-pregunta-title">
+                        <h3>8/8</h3>
+                        <h2>¿Cómo se puede prevenir el Stalking?</h2>
+                    </div>
+                    <div class="box-pregunta-respuesta">
+                        <button type='button'  id="r81" class="respuesta respuesta_hover  p8">Publicando mi número de teléfono en las redes sociales.</button>
+                        <button type='button'  id="r82" class="respuesta respuesta_hover  p8">Aceptando todas las sugerencias de amistad de facebook</button>
+                        <button type='button'  id="r83" class="respuesta respuesta_hover  p8">No compartir información personal</button>
+                    </div>
+                    <div class="box-info ocultar" id="info8">
+                        <p>
+                            Para prevenir el stalking evitá dar tu información personal, como correos electrónicos o números de 
+                            teléfono, a desconocidos. No aceptes personas extrañas en tus redes sociales. Configurá la privacidad de tus redes sociales, según los intereses que consideres necesarios.
+                            Sé precavido con las cosas que publicás en internet.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="resultado mostrar" id='resultado'>
+                <h1 id='cantidad'></h1>
+                <h2>Aciertos</h2>
+            </div>
+          
+        </div>
+
+         
+        <div class="footer">
+            <div class="footer-container">
+                <div class="footer-info bg-gray">
+                    <img src="../assets/logoBlue.png" alt="">
+                    <h3>Ciberseguridad Social</h3>
+                    <div class="box-contacto">
+                        <a><i class="fas fa-phone-alt"></i>+54 11 2222 3333</a>
+                       <a><i class="far fa-envelope"></i>contacto@ciberseguridad.com</a>
+                    </div>
+                </div>
+                <div class="footer-info">
+                    <ul>
+                        <li><span class="material-icons-outlined">navigate_next</span>Phishing</li>
+                        <li><span class="material-icons-outlined">navigate_next</span>Grooming</li>
+                        <li><span class="material-icons-outlined">navigate_next</span>Stalking</li>
+                        <li><span class="material-icons-outlined">navigate_next</span>Sexting</li>
+                    </ul>
+                </div>
+                <div class="footer-info">
+                    <h4>Seguinos en nuestras redes</h4>
+                   <div class="box-rs">
+                        <ul>
+                            <li><a href=""> <i class="fab fa-instagram"></i></a></li>
+                            <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                            <li><a href=""><i class="fab fa-youtube"></i></a></li>
+                        </ul>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src='../js/trivia.js'></script>
+</html>
