@@ -3,6 +3,7 @@
 document.addEventListener("DOMContentLoaded", load, false);
 
 function load() {
+<<<<<<< HEAD
     let titulo = '';
     let image = '';
     let subtitulo = '';
@@ -12,6 +13,17 @@ function load() {
     let item = localStorage.getItem('item'); 
     if(item){
         switch(item){
+=======
+    var titulo = '';
+    var image = '';
+    var subtitulo = '';
+    var info1 = '';
+    var info2 = '';
+    var caption = '';
+    var item = localStorage.getItem('item'); 
+    if(item){
+            switch(item){
+>>>>>>> 13e8ab1f59ac46914379ac639a5b4d276477e19b
                 case 'item1': 
                         titulo = 'Phishing';
                         subtitulo = 'Suplantación de identidad';
@@ -77,6 +89,7 @@ function load() {
                         image = '../assets/'+item+'.jpg';
                         break;   
             }
+<<<<<<< HEAD
     }else{
         titulo = 'Ciberseguridad Social';
         subtitulo = '';
@@ -89,6 +102,19 @@ function load() {
   
 
    
+=======
+        
+    }else{
+           titulo = 'Ciberseguridad Social';
+            subtitulo = '';
+            info1 = '';
+            info2 = '';
+            caption = 'No tenemos Información para mostrar' ;
+            image = '';
+
+
+    }
+>>>>>>> 13e8ab1f59ac46914379ac639a5b4d276477e19b
     document.getElementById('titulo').innerHTML = titulo;
     document.getElementById('subtitulo').innerHTML = subtitulo;
     document.getElementById('info1').innerHTML = info1;
